@@ -1,0 +1,63 @@
+body {
+    background-color: #ffffff;
+    font-family: fantasy;
+}
+  
+header {
+    height: 120px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 0.2);
+    z-index: 3;
+}
+
+main {
+    margin-top: 800px;
+}
+
+footer {
+    min-height: 120px;
+    background-color: rgb(224, 224, 224);
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.8em;
+}
+
+.description {
+    font-size: 1em;
+
+    &__content {
+        padding: 10px 20px;
+        font-weight: 300;
+    }
+
+    &__details {
+        font-weight: 300;
+    }
+
+    &__user {
+        color: forestgreen;
+    }
+}
+
+.card-body {
+    background-color: white;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 0.2);
+}
+
+.product {
+    text-decoration: none;
+    list-style-type: none;
+
+    &__smartphone {
+        text-align: start;
+    }
+}
