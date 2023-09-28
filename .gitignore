@@ -1,0 +1,7 @@
+#Ignore files
+node_modules/@
+node_modules/*
+node_modules/uncontrollable/*
+node_modules/react-bootstrap/*
+build/*
+build/static
